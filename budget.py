@@ -3,7 +3,7 @@ Expense Calculations
 Author: Daniel Cross
 Editors: Elf Fire Hydrant Group
 '''
-from expense import Expense
+from expense import Expense, getExpense
 
 # Individual Spending
 

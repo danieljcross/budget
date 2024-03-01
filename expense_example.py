@@ -1,4 +1,4 @@
-from expense import Expense
+from expense import Expense, getExpense
 
 # Example Usage:
 # Here is some unchanged code made using without Expense:
@@ -17,3 +17,8 @@ expenses.append(Expense("Move night expense", 50))
 
 for expense in expenses:
     print(expense.name + ": " + str(expense.value))
+
+# Here is an example showing how to retrive by name from an expenses array
+
+fast_food = getExpense(expenses, "Fast food expense")
+print("Fast food expense: " + str(fast_food.value))
