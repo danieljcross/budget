@@ -3,6 +3,7 @@ Expense Calculations
 Author: Daniel Cross
 Editors: Elf Fire Hydrant Group
 '''
+from expense import Expense
 
 # Individual Spending
 
